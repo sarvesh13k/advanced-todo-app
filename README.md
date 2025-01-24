@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Task Statistics Website
 
-## Getting Started
+A dynamic web application built using **Next.js** (frontend framework) and **TypeScript** with **SWC** for efficient transpilation. The website displays task statistics with beautiful pie charts using **Chart.js**.
 
-First, run the development server:
+---
 
+## 🚀 Features
+
+- 📊 **Task Statistics**: Visualize completed vs. remaining tasks in a pie chart.
+- ⚡ **Fast & Scalable**: Powered by Next.js and SWC for optimized performance.
+- 🎨 **Responsive Design**: Seamlessly adapts to any device.
+- 📦 **TypeScript Support**: Ensures type safety and better maintainability.
+
+---
+
+## 🛠️ Technologies Used
+
+| **Technology**       | **Purpose**                  |
+|-----------------------|------------------------------|
+| **Next.js**           | Frontend framework           |
+| **TypeScript**        | Programming language         |
+| **Chart.js**          | Data visualization           |
+| **SWC**               | Super-fast JS/TS transpiler  |
+| **Tailwind CSS**      | Styling framework            |
+
+---
+
+## 📁 Folder Structure
+
+project/ │ ├── public/ # Static assets (icons, images, etc.) ├── src/ # Source code │ ├── components/ # Reusable UI components │ ├── contexts/ # Context API for state management │ ├── pages/ # Next.js pages │ ├── styles/ # Global CSS or Tailwind setup │ ├── utils/ # Helper functions or utilities │ └── app/ # Main application logic │ ├── .gitignore # Files and folders to ignore in Git ├── package.json # Node.js dependencies and scripts ├── README.md # Project documentation └── tsconfig.json # TypeScript configuration
+
+
+## 🔧 Setup Instructions
+
+### **Prerequisites**
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+
+### **Clone the Repository**
 ```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+Install Dependencies
+Use either npm or yarn to install the project dependencies:
+
+# Using npm
+npm install
+
+# Using Yarn
+yarn install
+▶️ Running the Development Server
+Start the development server with the following command:
+
+# Using npm
 npm run dev
-# or
+
+# Using Yarn
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The application will be live at:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+http://localhost:3000
+🛠️ Build for Production
+To build the project for production, use the following command:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Using npm
+npm run build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Using Yarn
+yarn build
+After building, you can start the production server:
 
-## Learn More
+npm start
+# Or
+yarn start
+🎨 
+Task Statistics Chart
+📄 .env File Configuration
+For sensitive data, you can add a .env file in the project root. Example:
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✨ Acknowledgments
+Special thanks to the Next.js and Chart.js teams for their awesome frameworks and libraries!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+🛡️ Issues
+Feel free to open an issue if you encounter bugs or have feature suggestions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🎉 Happy Coding! ✨
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
